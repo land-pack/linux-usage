@@ -4,6 +4,8 @@ Everytime, when I login my remote server, I have to input those redundancy comma
 
 ###Use nickname instead of long command
 
+For mac, you use '.bash_profile`
+
 	ssh frank@192.168.1.203 -p 9001
 Yes, we can do it by edite our bash profile. `vim ~/.bash_profile`
 
@@ -20,10 +22,15 @@ To let the system know you have made some change, do the following command:
 
 	source ~/.bash_profile
 
+# For linux, you can use `.bashrc`
+
+
 And now, you can easily visit your remote server by:
 
 	ssh_dev
 But when you try it, you still need to input your password, it's boring too. so ..
+
+
 
 ### Use public key instead of password
 
