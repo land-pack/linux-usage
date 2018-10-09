@@ -22,7 +22,7 @@ To let the system know you have made some change, do the following command:
 
 	source ~/.bash_profile
 
-# For linux, you can use `.bashrc`
+For linux, you can use `.bashrc`
 
 
 And now, you can easily visit your remote server by:
